@@ -1,12 +1,12 @@
 require('dotenv').config();
 const express = require('express');
 const multer = require('multer');
-const path = require('path');
+const path = require('path');-
 const cors = require('cors');
 const fs = require('fs').promises;
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const Tesseract = require('tesseract.js');
-const { fromPath } = require('pdf2pic'); // Replaced pdf-poppler with pdf2pic
+const { fromPath } = require('pdf2pic'); // Replaced pdf-poppler with pdf2pic-
 const axios = require('axios');
 const sharp = require('sharp');
 
